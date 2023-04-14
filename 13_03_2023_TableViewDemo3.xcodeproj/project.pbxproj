@@ -15,6 +15,9 @@
 		683F941429E3D52E0007581B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683F941229E3D52E0007581B /* LaunchScreen.storyboard */; };
 		683F941C29E3D5A60007581B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F941B29E3D5A60007581B /* HomeViewController.swift */; };
 		683F941E29E3D7790007581B /* FoodItemInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F941D29E3D7790007581B /* FoodItemInfoTableViewCell.swift */; };
+		6897220529E527320065645A /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6897220429E527320065645A /* DashBoardViewController.swift */; };
+		6897220829E529FC0065645A /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6897220629E529FC0065645A /* ProductTableViewCell.swift */; };
+		6897220929E529FC0065645A /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6897220729E529FC0065645A /* ProductTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		683F941529E3D52E0007581B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683F941B29E3D5A60007581B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		683F941D29E3D7790007581B /* FoodItemInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemInfoTableViewCell.swift; sourceTree = "<group>"; };
+		6897220429E527320065645A /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		6897220629E529FC0065645A /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		6897220729E529FC0065645A /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				683F941529E3D52E0007581B /* Info.plist */,
 				683F941B29E3D5A60007581B /* HomeViewController.swift */,
 				683F941D29E3D7790007581B /* FoodItemInfoTableViewCell.swift */,
+				6897220429E527320065645A /* DashBoardViewController.swift */,
+				6897220629E529FC0065645A /* ProductTableViewCell.swift */,
+				6897220729E529FC0065645A /* ProductTableViewCell.xib */,
 			);
 			path = 13_03_2023_TableViewDemo3;
 			sourceTree = "<group>";
@@ -132,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				683F941429E3D52E0007581B /* LaunchScreen.storyboard in Resources */,
+				6897220929E529FC0065645A /* ProductTableViewCell.xib in Resources */,
 				683F941129E3D52E0007581B /* Assets.xcassets in Resources */,
 				683F940F29E3D52D0007581B /* Main.storyboard in Resources */,
 			);
@@ -146,7 +156,9 @@
 			files = (
 				683F940C29E3D52D0007581B /* ViewController.swift in Sources */,
 				683F940829E3D52D0007581B /* AppDelegate.swift in Sources */,
+				6897220829E529FC0065645A /* ProductTableViewCell.swift in Sources */,
 				683F941E29E3D7790007581B /* FoodItemInfoTableViewCell.swift in Sources */,
+				6897220529E527320065645A /* DashBoardViewController.swift in Sources */,
 				683F940A29E3D52D0007581B /* SceneDelegate.swift in Sources */,
 				683F941C29E3D5A60007581B /* HomeViewController.swift in Sources */,
 			);

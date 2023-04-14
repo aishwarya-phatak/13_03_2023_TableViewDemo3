@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8rE-m1-H9c">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kga-cd-V4h">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -116,6 +116,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zxw-sh-xFo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1007.6923076923076" y="-28.436018957345969"/>
+        </scene>
+        <!--Dash Board View Controller-->
+        <scene sceneID="Uc3-Ma-bgR">
+            <objects>
+                <viewController storyboardIdentifier="DashBoardViewController" id="kga-cd-V4h" customClass="DashBoardViewController" customModule="_3_03_2023_TableViewDemo3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xFa-26-QLs">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="y9k-VH-ltA">
+                                <rect key="frame" x="20" y="67" width="350" height="723"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bbS-Lk-rBa">
+                                        <rect key="frame" x="0.0" y="50" width="350" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bbS-Lk-rBa" id="92l-P5-Gon">
+                                            <rect key="frame" x="0.0" y="0.0" width="350" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A9R-6t-apY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A9R-6t-apY" firstAttribute="trailing" secondItem="y9k-VH-ltA" secondAttribute="trailing" constant="20" id="fHN-74-lpn"/>
+                            <constraint firstItem="y9k-VH-ltA" firstAttribute="top" secondItem="A9R-6t-apY" secondAttribute="top" constant="20" id="kPC-46-p7I"/>
+                            <constraint firstItem="A9R-6t-apY" firstAttribute="bottom" secondItem="y9k-VH-ltA" secondAttribute="bottom" constant="20" id="l1C-2g-kCS"/>
+                            <constraint firstItem="y9k-VH-ltA" firstAttribute="leading" secondItem="A9R-6t-apY" secondAttribute="leading" constant="20" id="v4C-zO-9cj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="productTableView" destination="y9k-VH-ltA" id="eAM-5D-I0g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBg-67-DPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1843" y="-28"/>
         </scene>
     </scenes>
     <resources>
